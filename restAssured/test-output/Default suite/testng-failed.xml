@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="interviewQuestions.ValidateCokkie">
+      <class name="complexRequest.Kusnap_complexRequest">
         <methods>
-          <include name="cokkie"/>
+          <include name="createprod"/>
         </methods>
-      </class> <!-- interviewQuestions.ValidateCokkie -->
+      </class> <!-- complexRequest.Kusnap_complexRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
