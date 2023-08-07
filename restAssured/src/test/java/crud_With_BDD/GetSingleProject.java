@@ -12,7 +12,6 @@ public void getSingleProj()
 {
 	when().get("http://rmgtestingserver:8084/projects/TY_PROJ_7837")
 	.then().assertThat().statusCode(200).contentType(ContentType.JSON).log().all();
-
 }
 	
 }

@@ -15,11 +15,9 @@ public class Employee_Deserialiation {
 	public void emp() throws JsonParseException, JsonMappingException, IOException
 	{
 	
-	
 	   //No need of pojoclass only any 
 		ObjectMapper omp = new ObjectMapper();
 		DummyPojo obj = omp.readValue(new File("./emp.json"),DummyPojo.class);
-		
 		
 		System.out.println(obj.getName());
 		System.out.println(obj.getSalary());

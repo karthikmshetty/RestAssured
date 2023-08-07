@@ -21,6 +21,7 @@ public class Json_Schema {
 		when().get("https://reqres.in/api/users?page=2")
 		.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(file));
 		System.out.println("vallidation successful");
+		
 	}
 	
 	

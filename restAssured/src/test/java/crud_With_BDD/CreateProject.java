@@ -24,7 +24,7 @@ public class CreateProject {
         
         given().body(jObj).contentType(ContentType.JSON)
         .when().post("http://rmgtestingserver:8084/addProject")
-        .then().assertThat().statusCode(201).log().all();
+        .then().assertThat().statusCode(201).contentType(ContentType.JSON).log().all();
         
 	
 	}

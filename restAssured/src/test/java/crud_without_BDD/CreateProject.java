@@ -35,8 +35,8 @@ public class CreateProject {
         //step3: validate the response
         System.out.println(response.getContentType());
       // System.out.println(response.asString());       // response will be in one single line
-        System.out.println(response.prettyPrint());     //response body will print 2 times
-       // System.out.println(response.prettyPeek());    // response body will print one time
+        System.out.println(response.prettyPrint());     //response body will print only body 
+       // System.out.println(response.prettyPeek());    // response body will print with header
         
 
 	}

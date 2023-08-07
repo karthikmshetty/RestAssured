@@ -13,7 +13,8 @@ public class ResponseHeaderValidation {
 	@Test
 	public void validate()
 	{
-     baseURI="http://rmgtestingserver";
+     
+	 baseURI="http://rmgtestingserver";
      port=8084;
      
      String expected_statusLine="HTTP/1.1 200 ";
@@ -23,6 +24,7 @@ public class ResponseHeaderValidation {
      String expected_connection="keep-alive";
      
      Response resp = when().get("/projects/TY_PROJ_6379");
+    
      
      Headers headers = resp.getHeaders();
      System.out.println("-----"+headers+"-----");
@@ -44,9 +46,6 @@ public class ResponseHeaderValidation {
      String act_Connection=resp.getHeader("Connection");
      Assert.assertEquals(act_Connection, expected_connection);
      
-     
-     
-
      
 	}
 	

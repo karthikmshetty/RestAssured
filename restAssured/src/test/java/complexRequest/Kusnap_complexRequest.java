@@ -20,7 +20,7 @@ public class Kusnap_complexRequest {
 	String []color= {"red","black"};
 	Description desc1 = new Description("RAM:8GB,ROM:64GB,48mp Cam", color, 21000);
 	Description desc2 = new Description("RAM:16GB,ROM:128GB,48mp Cam", color, 25000);
-	ArrayList<Description> list=new ArrayList();
+	ArrayList<Description> list=new ArrayList<Description>();
 	list.add(desc1);
 	list.add(desc2);
 	

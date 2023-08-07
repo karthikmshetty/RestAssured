@@ -15,13 +15,10 @@ public class EmployeeSerialization {
 	@Test
 	public void empSerialization() throws JsonGenerationException, JsonMappingException, IOException
 	{
-		
-		
 	    Serialization_Pojo_employee object = new Serialization_Pojo_employee("Karthik",25000,24);
 	
 	    ObjectMapper omp = new ObjectMapper();
         omp.writeValue(new File("./emp.json"),object);
-		
 		
 	}
 

@@ -31,11 +31,8 @@ public class DynamicResponseValidation {
         	if(actData.equals(expData))
         		flag=true;
         }
-        
         Assert.assertTrue(flag);
         System.out.println("Data Verified");
-
-		
-	}
+        }
 
 }
