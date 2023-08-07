@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="complexRequest.Kusnap_complexRequest">
+      <class name="crud_With_BDD.GetSingleProject">
         <methods>
-          <include name="createprod"/>
+          <include name="getSingleProj"/>
         </methods>
-      </class> <!-- complexRequest.Kusnap_complexRequest -->
+      </class> <!-- crud_With_BDD.GetSingleProject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
